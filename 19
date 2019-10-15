@@ -1,0 +1,1 @@
+la commande: systemctl list-units --type service --all
