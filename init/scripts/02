@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "Login a supprimer ?"
+read login
+
+login_list=`cat /etc/passwd | grep $Login
+if [ "$login_list" != "$NULL" ]; then
+	sudo passwd -l $login
+	if [ "$(pgrep -u $login)" != "$NULL" ]; then
+		sudo kill -9 $(pgrep -u $login)
+	fi
+	sudo userdel -r $login
+	echo "$login a bien ete supprime :-)"
+else
+	echo "$login n'existe pas"
+fi

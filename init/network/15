@@ -1,0 +1,7 @@
+dans le fichier /etc/hosts il faut rajouter une ligne pour faire pointer
+intra.42.fr vers 46.19.122.85
+--> cat /etc/hosts
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+46.19.122.85	intra.42.fr

@@ -1,0 +1,2 @@
+## nslookup 10.11.12.7 |grep name | awk '{print $4}' ##
+e1r12p7.42.fr.

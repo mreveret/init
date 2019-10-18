@@ -1,0 +1,4 @@
+Les fichiers de config se trouvent dans etc/
+on cherche ensuite debian
+etc/debian_version
+

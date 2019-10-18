@@ -1,0 +1,5 @@
+apres avoir fait traceroute slash16.org:
+la 1ere ligne est l'IP local , ensuite la 2e ligne (nat) est l'ip du materiel
+qui fait le lien avec le reseau local et l'exterieur : Network Address
+Translation (NAT)
+nat-1 (10.60.1.11)
