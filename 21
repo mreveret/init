@@ -1,2 +1,0 @@
-#!/bin/bash 
-getent passwd {1000..65535} | cut -d ':' -f1
