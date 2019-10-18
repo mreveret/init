@@ -1,2 +1,0 @@
-je suis d'abord aller dans /etc/ssh/ssh_config pour decouvrir l'existence du dossier .ssh
-~/.ssh/authorized_keys
